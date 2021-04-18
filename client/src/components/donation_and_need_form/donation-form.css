@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.center{
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+   width:80%;
+}
+.form-control{
+   margin: 15px;
+}
+
+.custom-file-label{
+   margin-left: 14px;
+}
+.img{
+  width:80%;
+  height:25rem;
+}
+
+
+.h1{
+  text-align:center;
+  font-size:4rem;
+  font-family: 'Times New Roman', Times, serif;
+  display: fixed;
+}
+
+.form-btn {
+   padding: 0px 0px 0px 0px;
+   margin-top: 1rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}

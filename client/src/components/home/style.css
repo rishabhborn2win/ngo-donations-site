@@ -1,0 +1,246 @@
+
+#aboutus{
+    width: 80%;
+}
+.Heading{
+    text-align: center;
+}
+.display{
+    border-radius: 50%;
+    width:70%;
+}
+
+.dev{
+    transition: 500ms;
+    margin-top: 0px;
+}
+
+.dev:hover{
+    transform: scale(1.5,1.5);
+}
+.page-odd{
+    background: linear-gradient(to left, rgb(218, 218, 218), white, white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3%;
+    height: 560px;
+    margin-left: 3%;
+    margin-right: 0;
+    border: solid 2px rgb(167, 167, 167);
+    border-right-color: rgb(209, 209, 209);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+.page-even{
+    background: linear-gradient(to right, rgb(218, 218, 218), white, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3%;
+    height: 560px;
+    margin-right: 3%;
+    margin-left: 0;
+    border: solid 2px rgb(167, 167, 167);
+    border-left-color: rgb(209, 209, 209);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    scrollbar-width: none;
+    padding: 20px;
+
+}
+.footer-of-page{
+    display: none;
+}
+
+/* making it mobile friendly the book pages */
+@media screen and (max-width: 815px) {
+    .page-odd{
+        background: linear-gradient(to left, rgb(218, 218, 218), white, white);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 3%;
+        height: 560px;
+        border: solid 2px rgb(167, 167, 167);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .page-even{
+        background: linear-gradient(to right, rgb(218, 218, 218), white, white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 3%;
+        height: 560px;
+        border: solid 2px rgb(167, 167, 167);
+        border-radius: 20px;
+        scrollbar-width: none;
+        padding: 20px;
+    
+    }
+    .footer-of-page{
+        display: block;
+        position: absolute;
+        bottom: 30px;
+        left: 250px;
+        font-size: 30px;
+        text-align: right;
+    }
+    
+  }
+
+.dev-container{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.dev{
+    width:100px;
+
+}
+
+
+
+/* Card of the helps that can be provided by our website */
+    .card-cause{
+        margin: 50px;
+        transition: 500ms linear;
+        padding: 20px;
+        background-color: #071F3F;
+        box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2); 
+    }
+    .cards-container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    div.card.card-cause{
+        width: 250px;
+    }
+    .title-of-card{
+        font-size: 25px;
+        font-weight: 5000;
+        color: #f5e7e7;
+    }
+    p.card-text{
+        color:#ffffff;
+    }
+  
+
+  
+  /* Stories carousel */
+  .top-stories{
+      margin-bottom: 8%;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+  } */
+
+
+  .main-div {
+      display: flex;
+  }
+
+
+  /* rating page styling */
+
+  .ratings{
+   
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      
+    
+  }
+
+
+.reviews-members .media .mr-3 {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+
+.media{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-members{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+div.owl-item{
+    background-color: #ffffff;
+}
+
+/* News Component */
+
+
+.news-list{
+ width: 60%;
+height: 500px;
+overflow-x: unset;
+overflow-y: auto;
+scrollbar-width: none;
+}
+.card-title{background-color: #071F3F; color:#ffffff;}
+.card-body{background-color: #071F3F;}
+#read-more-btn1{background-color: #ffc107;}
+#read-more-btn2{background-color: #ffc107;}
+#read-more-btn3{background-color: #ffc107;}
+#read-more-btn4{background-color: #ffc107;}
+#read-more-btn5{background-color: #ffc107;}
+#read-more-btn6{background-color: #ffc107;}
+#read-more-btn7{background-color: #ffc107;}
+
+
+#more{
+    display: none;
+}
+
+.desc{
+    font-size: medium;
+    
+}
+
+#read-more-btn{
+    width: 30%;
+}
+.text-of-news{
+    width: 70%;
+    margin-left: 10%;
+}
+.news-detail{
+    display: flex;
+}
+.news-detail img{
+   width: 15%;
+   height: auto;
+}
+@media screen and (max-width: 600px){
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news-list{
+        width: 90%;
+    }
+    .news-detail img{
+         width: 30%;
+         height: 50%;
+         border-radius: 5px;
+    }
+}
+
